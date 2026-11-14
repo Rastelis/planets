@@ -10,3 +10,7 @@ export function getCanvasCenter(width: number, height: number) {
 export function calculateVelocity(start: Vector2, end: Vector2) {
   return { x: start.x - end.x, y: start.y - end.y };
 }
+
+export function getSize(mass: number): number {
+  return mass / 20;
+}
